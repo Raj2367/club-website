@@ -18,11 +18,11 @@ import Typography from "@material-ui/core/Typography";
 const innerTypo = {
   color: `grey`,
   fontSize: `16px`,
-  fontFamily: "Lato"
+  fontFamily: "Roboto"
 };
 
 const outerTypo = {
-  fontFamily: "Lato",
+  fontFamily: "Roboto",
   fontSize: `18px`
 };
 
@@ -39,7 +39,7 @@ const styles = theme => ({
     color: "white",
     borderRadius: "20px",
     fontSize: "14px",
-    fontFamily: "Lato"
+    fontFamily: "Roboto"
   },
   thirdButton: {
     backgroundColor: "#1a237e",
@@ -99,7 +99,7 @@ function FullWidthGrid(props) {
                 gutterBottom
                 style={outerTypo}
               >
-                Tech talks, demo and display of projects, hands-on experience.
+                Tech talks, demo and display of hands-on  projects.
               </Typography>
               <Typography
                 component="h2"
@@ -109,7 +109,7 @@ function FullWidthGrid(props) {
                 style={innerTypo}
               >
                 These sessions attempt to bring all developers and enthusiasts
-                to learn, innovate and share ideas.
+                to learn, innovate and share their ideas.
               </Typography>
               <Link
                 component="button"

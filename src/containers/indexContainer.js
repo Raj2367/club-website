@@ -3,6 +3,7 @@ import NavigationBar from "../components/Navigationbar";
 import Typography from "@material-ui/core/Typography";
 import Grid from "../components/homepage/grid";
 import WhatWeDo from "../components/homepage/whatwedo";
+//import TimelineItem from "../components/homepage/timeLine";
 
 const styles = {
   width: `100%`
@@ -42,17 +43,18 @@ export default () => {
         align="center"
         variant="h5"
         gutterBottom
+        color="secondary"
         style={headingText}
       >
         We are Zairza
       </Typography>
-      <hr style={hrStyle} />
+      <hr color="primary" style={hrStyle} />
       <div class="container">
         <Typography
           component="h2"
-          align="justify"
+          align="center"
           variant="h5"
-          gutterBottom
+          gutterBottom="true"
           style={innerPara}
         >
           ZAIRZA is a cult for CETians who want to be ahead in the game. Sure we
@@ -65,20 +67,24 @@ export default () => {
       <div className="container-fluid" style={section}>
         <Grid />
       </div>
+      {/* <div>
+         <TimelineItem/>
+      </div>  */}
       <Typography
         component="h2"
         align="center"
         variant="h5"
+        color="secondary"
         gutterBottom
         style={headingText}
       >
         What We Do
       </Typography>
-      <hr style={hrStyle} />
+      <hr color="primary" style={hrStyle} />
       <div class="container">
         <Typography
           component="h2"
-          align="justify"
+          align="center"
           variant="h5"
           gutterBottom
           style={innerPara}
@@ -90,7 +96,7 @@ export default () => {
           flows down through each batch of CET which empowers us to stand ahead
           of our counterparts.
         </Typography>
-      </div>
+      </div> 
       <div className="container" style={section}>
         <WhatWeDo />
       </div>
